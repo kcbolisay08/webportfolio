@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Karlo Cris | Web Developer Portfolio</title>
 
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -15,32 +15,94 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <!-- Roboto -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    
-    <!-- Montserrat -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
-
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 
 <body>
-    <div class="container-fluid">
-        <section id="landing" class="text-center mt-5">
-            <h1>Full Stack Web Developer</h1>
-            <!-- <h2>Full Stack Web Developer</h2>
-            <h3>Full Stack Web Developer</h3>
-            <h4>Full Stack Web Developer</h4>
-            <h5>Full Stack Web Developer</h5>
-            <h6>Full Stack Web Developer</h6> -->
+    <div class="container">
+        <div class="row m-5">
+            <div class="col-md-3">
+                <section class="image-section">
+                    <img id="profile" class="img-fluid" src="images/dp_image.jpg" alt="KCGB">
+                </section>
+            </div>
+            <div class="col-md-9">
+                <section class="head-section">
+                    <h1><b>Karlo Cris G. Bolisay</b> | Full Stack Developer</h1>
+                    <p class="fw-regular lh-lg">Hello, I'm Karlo Cris, a Bachelor's degree holder in Information Technology. This website is created for compliance with the Web Development course offered by the <b>Department of Information And Communications Technology.</b></p>
+                    <a href="mailto:kcbolisay@gmail.com" class="btn btn-blue mt-3">Let's work together!</a>
+                </section>
+            </div>
+        </div>
 
-            <p>Hi! My name is Karlo Cris and I love building things from scratch.</p>
+        <div class="row m-5">
+            <div class="col-md-12">
+                <section class="skills-section fw-bold">
+                    <h3 class="text-uppercase fw-bold mb-4">Skills and <span class="fw-regular" style="color: var(--blue);">Expertise</span></h3>
+                </section>
 
-            <img id="profile" class="img-fluid" src="images/test_image.png" alt="Test Image">
+                <section class="table-section">
+                    <table class="table table-bordered bg-light generic-table">
+                        <thead class="bg-dark text-white">
+                            <td><span class="small">Field of Expertise</span></td>
+                            <td><span class="small">Skilled In</span></td>
+                        </thead>
+                        <tr>
+                            <td>System Development</td>
+                            <td>
+                                <b>Programming Languages:</b>
+                                <ul>
+                                    <li>PHP, HTML/CSS, JavaScript, Java, C#</li>
+                                </ul>
+                                <b>Web Development Tools:</b>
+                                <ul>
+                                    <li>Laravel MVC Framework, Git, Git Extensions, kdiff3, NodeJS</li>
+                                </ul>
+                                <b>Android Development Tools:</b>
+                                <ul>
+                                    <li>Unity, Blender, AR+GPS, Vuforia, AR Foundation, AR Core</li>
+                                </ul>
+                                <b>Databases:</b>
+                                <ul>
+                                    <li>SQL, Microsoft Access</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>UI/UX Design</td>
+                            <td>
+                                <b>High-Fidelity Wireframing:</b>
+                                <ul>
+                                    <li>Adobe Photoshop, Illustrator, XD</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Relevant Skills</td>
+                            <td>
+                                <ul>
+                                    <li>University-Level Education and Instruction</li>
+                                    <li>Student Tutorials for IT Related Subjects</li>
+                                    <li>General Office Skills</li>
+                                    <li>Professional Presentations</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </table>
+                </section>
+            </div>
+        </div>
 
-            <a href="mailto:kcbolisay@gmail.com" class="btn btn-success btn-lg mt-3">Let's work together!</a>
-        </section>
+        <div class="row m-5">
+            <div class="col-md-12">
+                <section class="footer-section">
+                    <div class="copyright text-center my-auto">
+                        <span>Copyright &copy; Karlo Cris G. Bolisay 2024</span>
+                    </div>
+                </section>
+            </div>
+        </div>
     </div>
 
     <!-- Bootstrap JS -->
