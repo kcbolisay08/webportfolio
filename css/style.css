@@ -48,3 +48,7 @@ body {
 .btn-blue {
     background-color: var(--blue) !important;
 }
+
+.btn-blue {
+    background-color: var(--orange) !important;
+}
